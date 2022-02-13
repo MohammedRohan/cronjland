@@ -1,0 +1,287 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.first {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0px;
+  left: 0px;
+}
+
+.abc {
+  /* top: 0px;
+left: 0px; */
+  /* width: 1440px;
+height: 715px; */
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+  position: absolute;
+}
+
+.navbar {
+  /* position: absolute; */
+  /* top: 36px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.logo {
+  left: 128px;
+  width: 134px;
+  height: 54px;
+}
+
+.menu {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+
+p {
+  font-family: "SVN-Gilroy", sans-serif;
+  color: white;
+  padding-right: 20px;
+  opacity: 85%;
+}
+
+.contactus {
+  color: white;
+  background-color: #fb5012;
+  border: none;
+  border-radius: 20%;
+  padding: 10px;
+}
+
+.content1 {
+  top: 212px;
+  left: 148px;
+  width: 947px;
+  height: 204px;
+  text-align: left;
+  font: normal normal bold 51px/68px SVN-Gilroy;
+  letter-spacing: 0px;
+  opacity: 1;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+.box1 {
+  top: 400px;
+  left: 100px;
+  width: 400px;
+  height: 60px;
+  background: #fb5012 0% 0% no-repeat padding-box;
+  border-radius: 7px;
+  margin-left: 100px;
+  margin-top: 30px;
+  /* padding-top: 30px;
+padding-left: 30px;
+padding-bottom: 50px; */
+  font-family: "SVN-Gilroy", sans-serif;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.orangeimg {
+  top: 650px;
+  left: 0px;
+  width: 100vw;
+  height: 289px;
+  background: transparent url("img/Group 12623.png") 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: absolute;
+  z-index: -1;
+  object-fit: cover;
+}
+
+.budget {
+  top: 775px;
+  left: 512px;
+  width: 100%;
+  height: 37px;
+  text-align: center;
+  font-family: "SVN-Gilroy", sans-serif;
+  letter-spacing: 0px;
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+  opacity: 1;
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* position: absolute; */
+  /* margin-left: 20px;s */
+}
+
+.orangebox {
+  display: flex;
+  justify-content: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+
+.p1 {
+  /* width: 596px; */
+  height: 21px;
+  text-align: center;
+  font-variant: normal;
+  font-size: 18px;
+  letter-spacing: 0px;
+  color: black;
+  font-weight: 200;
+  font-style: normal;
+  opacity: 1;
+  font-family: "SVN-Gilroy", sans-serif;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.book {
+  min-width: 170px;
+  min-height: 65px;
+  background-color: white;
+  border-radius: 7px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+.greyimage {
+  top: 935px;
+  left: 0px;
+  width: 100%;
+  height: 389px;
+  background: transparent url("img/Group 11323.png") 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: absolute;
+  overflow-x: hidden;
+
+  z-index: -1;
+}
+
+.devapp {
+  top: 1082px;
+  left: 456px;
+  width: 100%;
+  /* max-width: 100%; */
+  height: 34px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  font: normal normal 600 28px/51px SVN-Gilroy;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  margin-top: 130px;
+}
+
+.greybox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 150px;
+}
+
+.pb {
+  font-family: "SVN-Gilroy", sans-serif;
+  font-size: 15px;
+  left: 0px;
+  font-weight: lighter;
+  text-align: center;
+  letter-spacing: 0px;
+  width: 700px;
+  line-height: 1.8;
+  margin-top: 20px;
+}
+
+.top10 {
+  position: absolute;
+  top: 1375px;
+  font: normal normal bold 28px/35px SVN-Gilroy;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.top10a {
+  /* position: absolute; */
+  /* top: 1375px; */
+  font: normal normal bold 28px/35px SVN-Gilroy;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.cronjbox {
+  top: 2250px;
+  left: 148px;
+  width: 1132px;
+  height: 222px;
+  border: 1px solid #fb5012;
+  border-radius: 8px;
+  opacity: 0.8;
+  margin-top: 15px;
+  margin-left: 100px;
+}
+
+.one {
+  background-color: #fb5012;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 22px;
+  margin-right: -30px;
+  margin-left: 30px;
+}
+
+.onea {
+  background-color: #fb5012;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 22px;
+    margin-right: -30px;
+    margin-left: 30px; */
+}
+
+.companies {
+  top: 2250px;
+  left: 148px;
+  width: 1132px;
+  height: 222px;
+  margin-top: 15px;
+  margin-left: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.orange2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
