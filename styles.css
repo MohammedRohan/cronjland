@@ -285,3 +285,9 @@ padding-bottom: 50px; */
   justify-content: center;
   align-items: center;
 }
+
+.whitebox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
